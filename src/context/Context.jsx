@@ -36,7 +36,7 @@ export const Context = createContext();
                 newResponse += '<b>'+responseArray[i]+'</b>'
             }
         }
-        let newResponse2 = newResponse.split("*").join("<b>")
+        let newResponse2 = newResponse.split("*").join("</b>")
         let newResponeArray = newResponse2.split(" ");
         for(let i=0 ; i < newResponeArray.length; i++){
             const nextWord = newResponeArray[i];
